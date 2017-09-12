@@ -17,11 +17,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activesupport',          '>= 3.0'
-  spec.add_dependency 'json',                   '~> 2.1'
-  spec.add_dependency 'rake',                   ['>= 0.9']
-  spec.add_dependency 'nokogiri',               '~> 1.7'
-  spec.add_dependency 'net-http-persistent',    '~> 3.0'
-  spec.add_dependency 'video_info',             '~> 2.7'
-  spec.add_dependency 'image_info',             '~> 1.1'
+  spec.add_dependency 'activesupport'
+  spec.add_dependency 'json'
+  spec.add_dependency 'rake'
+  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'net-http-persistent'
+  spec.add_dependency 'video_info'
+  spec.add_dependency 'image_info'
 end
